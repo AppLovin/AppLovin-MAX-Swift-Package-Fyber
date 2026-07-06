@@ -19,6 +19,7 @@ The AppLovin MAX Fyber / Digital Turbine Exchange mediation adapter for iOS, dis
    ```
 3. Select **Exact Version** and enter the encoded version (e.g. `8040700.0.0` for adapter version `8.4.7.0`).
 4. Add the `AppLovinMediationFyberAdapter` product to your app target.
+5. In your target's **Build Settings**, add `-ObjC` to **Other Linker Flags**.
 
 ### Package.swift
 
