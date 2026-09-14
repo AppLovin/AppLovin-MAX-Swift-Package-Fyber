@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationFyberAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "AppLovinMediationFyberAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationFyberAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/fyber-adapter/AppLovinMediationFyberAdapter-8.4.10.0.zip",
-            checksum: "0d14debfc63c2d6cf47f7c6172d3f0b54b9d7a91a8eb694c3502da90f3ab8759"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/fyber-adapter/AppLovinMediationFyberAdapter-8.4.10.1.zip",
+            checksum: "8293c1eda2525da47c2f0bb29f225f502bcf3960a14f90d25335db488f09dcfb"
         )
     ]
 )
